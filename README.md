@@ -1,2 +1,18 @@
-# Data-Analysis-Project
-This project analyzes bike-sharing data to identify peak and off-peak usage times for registered and casual users and examines the impact of weather conditions across seasons on bike usage. 
+
+# BIKE SHARING DASHBOARD
+
+## Setup Environment - Anaconda
+conda create --name ds_project python 3.12.4
+conda activate ds_project
+pip install -r requirements.txt
+
+## Setup Environment - Shell/Terminal
+mkdir data_analysis
+cd data_analysis
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+
+## Run streamlit app
+streamlit run Dashboard.py 
+
