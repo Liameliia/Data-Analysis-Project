@@ -21,7 +21,7 @@ for column in datetime_columns:
 
 with st.sidebar:
     # Menambahkan logo
-    st.image("https://github.com/Liameliia/Data-Analysis-Project/blob/main/Dashboard/logo.png", width=300)
+    st.image("Dashboard/logo.png", width=300)
     
     # Menampilkan informasi umum tentang data
     st.sidebar.header("About Dataset")
