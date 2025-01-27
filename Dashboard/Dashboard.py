@@ -90,7 +90,7 @@ st.pyplot(fig)
 
 # Analisis RFM
 st.header("RFM Segmentation of Daily Bike Users")
-hourly_df = pd.read_csv('hourly_df.csv')  
+hourly_df = pd.read_csv('Dashboard/hourly_df.csv')  
 rfm_df = hourly_df.groupby(by=["dteday"], as_index=False).agg({
     "cnt": ["count", "sum"]
 })
