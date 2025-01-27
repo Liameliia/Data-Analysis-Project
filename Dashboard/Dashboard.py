@@ -7,8 +7,8 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 # Mengunggah file data hourly_df dan daily_df
-hourly_df = pd.read_csv("hourly_df.csv")
-daily_df = pd.read_csv("daily_df.csv")
+hourly_df = pd.read_csv("Dashboard/hourly_df.csv")
+daily_df = pd.read_csv("Dashboard/daily_df.csv")
 
 # Memastikan tipe data pada kolom dteday menjadi datetime pada hourly_df dan daily_df
 datetime_columns = ["dteday"]
