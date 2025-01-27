@@ -21,7 +21,7 @@ for column in datetime_columns:
 
 with st.sidebar:
     # Menambahkan logo
-    st.image("bikelogo.png", width=300)
+    st.image("logo.png", width=300)
     
     # Menampilkan informasi umum tentang data
     st.sidebar.header("About Dataset")
